@@ -100,7 +100,7 @@ class _HomePageState extends State<HomePage> {
                   IconButton(
                     onPressed: () {
                       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                          content: Text("Now no notification avaible")));
+                          content: Text("Don't have notification")));
                     },
                     icon: Icon(
                       Icons.notifications,
@@ -114,7 +114,7 @@ class _HomePageState extends State<HomePage> {
             Padding(
               padding: const EdgeInsets.only(left: 12),
               child: Text(
-                "Hi, Programmer",
+                "Hi, Learner",
                 style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.w600,
